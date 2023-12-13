@@ -1,24 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>ANAS</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="anas.css">
-  </head>
-  <body>
-    <div class="motherdev">
-      <div class="dev1">
-        <p class="myjob">
-        Frontend Developer
-        </p>
-      </div>
-      <div class="dev2">
-        <p class="lovecoding">
-          I design and code beautifully simple things, and I love what I do.
-        </p>
-      </div>
-    </div>
-  </body>
-</html>
+.motherdev {
+  display: inline-block;
+  margin-top: 150px; 
+  margin-bottom: none;
+  margin-left: 450px;
+  margin-right: none;
+  width: 500px;
+}
+ .dev1, .dev2, .dev3 {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+ .myjob {
+  font-family: eurostile, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  color: #141c3a;
+  margin-bottom: 24px;
+ }
+  
+ .lovecoding {
+  font-family: europa, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(10, 10, 10, 0.9);
+  margin-top: 0px;
+ }
