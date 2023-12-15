@@ -1,0 +1,83 @@
+body  {
+    margin: 0px;
+    padding: 0px;
+}
+.motherdev { 
+    display: inline-block;
+    padding-top: none;
+    padding-left: 150px;
+    width: 1000px;
+    height: 200px; 
+}
+    
+.dev1, .dev2, .dev3, .dev4 {
+     margin: auto; 
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+}
+
+.dev4 {
+    margin-top: 10px;
+}
+
+.myjob { 
+    font-family: eurostile, sans-serif;
+    font-style: normal; 
+    font-weight: 800; 
+    font-size: 50px; 
+    color: #141c3a; 
+    margin-bottom: 24px; 
+}
+.myname {
+    font-family: eurostile, sans-serif;
+    font-style: normal; 
+    font-weight: 800; 
+    font-size: 50px; 
+    color: #141c3a; 
+    margin-bottom: 24px; 
+}
+
+.lovecoding { 
+    font-family: europa, sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 17px; 
+    color: rgba(10, 10, 10, 0.9); 
+    margin-top: 0px; 
+}
+.strlwl {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    padding-top: 20px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: max-content;
+    margin-left: 150px;
+}
+
+.logo {
+    height: 55px; 
+    width: 55px;
+    margin-left: 0px;
+    
+}
+.contactme {
+    background-color: transparent;
+    border-color: #6E07F3;
+    color: #6E07F3;
+    height: 48px; 
+    width: 130px;
+    display: block;
+    border-radius: 9999px;
+    font-family: europa, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 820px;
+}
+.computerdev {
+    margin-left: 240px;
+}
